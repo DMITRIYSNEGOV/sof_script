@@ -1,4 +1,19 @@
 -------------------------------------------------------------------------------
 Test set: com.stackOverFlow.StackOverFlowTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 34.84 s - in com.stackOverFlow.StackOverFlowTest
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 38.082 s <<< FAILURE! - in com.stackOverFlow.StackOverFlowTest
+mainTest(com.stackOverFlow.StackOverFlowTest)  Time elapsed: 37.854 s  <<< FAILURE!
+java.lang.AssertionError: ? ?????? ??????? ?? ??????? ????? "WebDriver"
+	at com.stackOverFlow.StackOverFlowTest.checkWordInPreviewTextQuestion(StackOverFlowTest.java:41)
+	at com.stackOverFlow.StackOverFlowTest.mainTest(StackOverFlowTest.java:107)
+
+mainTest(com.stackOverFlow.StackOverFlowTest)  Time elapsed: 37.855 s  <<< FAILURE!
+java.lang.AssertionError: ? ?????? ??????? ?? ??????? ????? "WebDriver"
+	at com.stackOverFlow.StackOverFlowTest.checkWordInPreviewTextQuestion(StackOverFlowTest.java:41)
+	at com.stackOverFlow.StackOverFlowTest.mainTest(StackOverFlowTest.java:107)
+
+mainTest(com.stackOverFlow.StackOverFlowTest)  Time elapsed: 37.855 s  <<< FAILURE!
+java.lang.AssertionError: ??????? ????? ?? ?????????? ? ????
+	at com.stackOverFlow.StackOverFlowTest.isContainTag(StackOverFlowTest.java:61)
+	at com.stackOverFlow.StackOverFlowTest.mainTest(StackOverFlowTest.java:159)
+
